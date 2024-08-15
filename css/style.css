@@ -24,14 +24,21 @@
     font-size: 60px;
 }
 
-.main-header button{
-    padding: 12px;
-    border-radius: 4px;
+.navbar{
+    display: flex;
+    justify-content: center;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
 
+.navbar li{
+    padding: 10px;
+}
 
-    color: black;
-    background-color: white;
-    border-color: white;
+li a{
+    display: block;
+    text-align: center;
+    
+    color: white;
+    text-decoration: none;
 }
