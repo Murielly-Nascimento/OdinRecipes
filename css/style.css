@@ -2,6 +2,7 @@
     /*Layout*/
     text-align: center;
     padding: 100px;
+    height: 100vh; 
 
     /*Typography*/
     color: white;
@@ -9,6 +10,8 @@
 
     /*Visual Properties*/
     background-image: url("../img/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main-header h3,

@@ -1,0 +1,23 @@
+*{
+
+    /*Typography*/
+    color: black;
+    background-color: #f5f5ef;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    padding: 50px;
+}
+
+.generic-banner{
+    /*Layout*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.generic-banner .text{
+    display: block;
+    margin: 10px;
+}
